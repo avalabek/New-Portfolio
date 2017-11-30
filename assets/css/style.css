@@ -1,7 +1,7 @@
 
 .body-content {
    background-size: cover;
-	width:77%;		
+width:70%;		
 }
 h1 {
 	text-align: left;
@@ -30,7 +30,7 @@ footer {
 	background-color:#00897B;
 	color: white;
 	text-align:center;
-	margin-left:6%;
+	margin-right:60%;
 }
 #play {
 	background-color:#4a6a9e;
