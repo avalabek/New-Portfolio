@@ -1,48 +1,12 @@
-
-.body-content {
-   background-size: cover;
-width:70%;		
-}
-h1 {
-	text-align: left;
-}
 body {
-	
-	text-align:center;
-	font-family: 'Raleway', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-footer {
-	text-align:right;
+
+main {
+    flex: 1 0 auto;
 }
-.panel-transparent {
-        background: none;
-    }
-
-    .panel-transparent .panel-heading{
-    
-        background: rgba(122, 130, 136, 0.2)!important;
-    }
-
-    .panel-transparent .panel-body{
-        background: rgba(46, 51, 56, 0.2)!important;
-    }
-#next{
-	background-color:#00897B;
-	color: white;
-	text-align:center;
-	margin-right:60%;
+#top {
+    background-color: #98dafc
 }
-#play {
-	background-color:#4a6a9e;
-	color:white;
-}
-ul { 
-	list-style-type: none; 
-} 
-
-    
-
-    /*font-family: 'Muli', sans-serif;*/
-
-    /*font-family: 'Work Sans', sans-serif;*/*/
-
