@@ -5,8 +5,9 @@ body {
     background-color: #D5D5D5;
     font-family:"Raleway" , sans-serif;
     /* why isn't image showing up? */
-    background: url("images/succulent.jpg");
+    background: url("../images/succulent.jpg");
 }
+/* /assets/css/images/succulent.jpg */
 
 main {
     flex: 1 0 auto;
