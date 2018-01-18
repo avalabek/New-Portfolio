@@ -4,9 +4,12 @@ body {
     flex-direction: column;
     background-color: #D5D5D5;
     font-family:"Raleway" , sans-serif;
-    
+}
+
+body.home {    
     background: url("../images/succulent.jpg");
 }
+
 /* /assets/css/images/succulent.jpg */
 
 main {
