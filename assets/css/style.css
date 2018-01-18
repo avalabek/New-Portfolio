@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     background-color: #D5D5D5;
     font-family:"Raleway" , sans-serif;
-    /* why isn't image showing up? */
+    
     background: url("../images/succulent.jpg");
 }
 /* /assets/css/images/succulent.jpg */
@@ -13,7 +13,15 @@ main {
     flex: 1 0 auto;
 }
  
-
+h1, h5 {
+    color: white;
+}
+.card {
+    height: 389px;
+}
+#resize {
+    width:500px;
+}
 #big{
     height: 100px;
 }
