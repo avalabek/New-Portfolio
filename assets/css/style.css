@@ -64,6 +64,9 @@ fieldset[disabled] .btn-portfolio.active {
     color: #E6CF8B;
     background-color: #FFFFFF;
 }
+#friend{
+    height: 222px;
+}
 .card {
     height: 389px;
 }
