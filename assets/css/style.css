@@ -74,11 +74,12 @@ fieldset[disabled] .btn-portfolio.active {
     width:500px;
 }
 #big{
-    height: 100px;
+    height: 75px;
 }
 #top {
      font-family:"Raleway", sans-serif;
-    background-color: #96858F;
+     background-color: #96858F; 
+    
 }
 #bottom{
     background-color: #6D7993;
