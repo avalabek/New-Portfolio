@@ -20,6 +20,8 @@
     <!-- link to google fonts -->
     
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+    <!-- link to materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <!-- <li>
   <a href="collapsible.html">
@@ -32,7 +34,11 @@
 <div class="navbar-fixed">
 <!-- <nav> -->
   <div class="nav-wrapper" id="top">
-    <a href="#" class="brand-logo">Andreya Valabek</a>
+    <a href="#" class="brand-logo name">Andreya Valabek</a>
+    <!-- below should collapse into hamburger  -->
+    <a href="index.html" data-activates="mobile-demo" class="button-collapse">
+      <i class="material-icons">menu</i>
+    </a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li>
         <a href="portfolio.html">Portfolio</a>
@@ -44,6 +50,19 @@
       <li>
         <a href="contact.html">Contact</a>
       </li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li>
+        <a href="portfolio.html">Portfolio</a>
+      </li>
+      
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+
     </ul>
   </div>
 </nav>
