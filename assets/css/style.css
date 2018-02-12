@@ -19,6 +19,51 @@ main {
 h1, h5 {
     color: white;
 }
+.btn-portfolio {
+    color: #FFFFFF;
+    background-color: #E6CF8B;
+    border-color: #E6CF8B;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus,
+.btn-portfolio:active,
+.btn-portfolio.active,
+.open .dropdown-toggle.btn-portfolio {
+    color: #FFFFFF;
+    background-color: #C4AA5C;
+    border-color: #E6CF8B;
+}
+
+.btn-portfolio:active,
+.btn-portfolio.active,
+.open .dropdown-toggle.btn-portfolio {
+    background-image: none;
+}
+
+.btn-portfolio.disabled,
+.btn-portfolio[disabled],
+fieldset[disabled] .btn-portfolio,
+.btn-portfolio.disabled:hover,
+.btn-portfolio[disabled]:hover,
+fieldset[disabled] .btn-portfolio:hover,
+.btn-portfolio.disabled:focus,
+.btn-portfolio[disabled]:focus,
+fieldset[disabled] .btn-portfolio:focus,
+.btn-portfolio.disabled:active,
+.btn-portfolio[disabled]:active,
+fieldset[disabled] .btn-portfolio:active,
+.btn-portfolio.disabled.active,
+.btn-portfolio[disabled].active,
+fieldset[disabled] .btn-portfolio.active {
+    background-color: #E6CF8B;
+    border-color: #E6CF8B;
+}
+
+.btn-portfolio .badge {
+    color: #E6CF8B;
+    background-color: #FFFFFF;
+}
 .card {
     height: 389px;
 }
